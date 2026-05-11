@@ -171,3 +171,124 @@ Example Commands
 
 ## Author
 Baktygerey Shugyla
+
+# ZIP Search Module
+
+The ZIP Search module allows users to upload ZIP archives and perform file-based search and analysis directly inside Telegram.
+
+### Features
+
+📦 Upload ZIP archives  
+📄 Display all files inside ZIP  
+🔍 Search words inside TXT/CSV files  
+📅 Search records by year  
+🏙 Find records by city and year  
+📊 Generate ZIP archive summary  
+❓ Built-in help menu  
+
+---
+
+## How It Works
+
+1. The user uploads a `.zip` archive
+2. The bot saves the archive for the current user
+3. The user can select different ZIP analysis functions using menu buttons
+
+The bot processes:
+- `.txt` files
+- `.csv` files
+
+inside the uploaded archive.
+
+---
+
+## ZIP Functions
+
+### Files Inside ZIP
+Displays all files stored inside the uploaded archive.
+
+Example:
+```text
+ip_data_2020.txt
+ip_data_2021.txt
+regions.csv
+```
+
+---
+
+### Search Word
+
+Searches for a specific word inside all TXT and CSV files.
+
+Example command:
+```text
+search Astana
+```
+
+The bot returns all matching lines where the word appears.
+
+---
+
+### Search by Year
+
+Finds all records connected to a selected year.
+
+Example:
+```text
+year 2020
+```
+
+---
+
+### Find by City and Year
+
+Searches records using two conditions simultaneously.
+
+Example:
+```text
+find Astana 2021
+```
+
+---
+
+### ZIP Summary
+
+Generates archive statistics:
+- total number of files
+- number of TXT files
+- number of CSV files
+- total number of lines
+
+---
+
+### ZIP Help
+
+Displays all available ZIP commands and usage examples.
+
+---
+
+## Programming Concepts Used
+
+- Telegram message handlers
+- File downloading
+- ZIP processing with `zipfile`
+- Dictionaries for user storage
+- Exception handling (`try/except`)
+- File iteration
+- Text searching
+- Conditional statements
+
+---
+
+## Why This Module Is Useful
+
+This module demonstrates practical work with:
+- archives
+- file systems
+- text processing
+- search algorithms
+- Telegram bot interaction
+
+It makes the bot more interactive and shows how Python can automate file-based analysis tasks.
+## Author
+Tursynbay Aspan
