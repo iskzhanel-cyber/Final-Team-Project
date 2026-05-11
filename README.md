@@ -77,6 +77,6 @@ python bot.py
 
 ---
 
-## Authors
+## Author
+Iskakova Zhanel
 
-- Your team names
