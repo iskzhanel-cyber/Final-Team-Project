@@ -81,9 +81,9 @@ python bot.py
 ## Author
 Iskakova Zhanel
 
-#🎮 Fun Work Telegram Bot
+# 🎮 Fun Work Telegram Bot
 
-##Project Description
+## Project Description
 
 Second, this Telegram bot provides a set of fun and utility tools accessible directly inside Telegram.
 
