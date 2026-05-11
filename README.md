@@ -169,5 +169,5 @@ Example Commands
 
 -----
 
-Authors
+## Author
 Baktygerey Shugyla
